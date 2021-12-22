@@ -7,8 +7,6 @@ library(ggmap)
 # Train Data
 trains <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-02-26/full_trains.csv")
 
-write.csv(trains, "trains.csv", row.names = FALSE)
-
 # Get Station Names
 station_names <- trains %>%
   distinct(departure_station) %>%
@@ -28,5 +26,27 @@ for(i in 1:nrow(station_info)){
   station_info$lat[i] <- as.numeric(result[2])
 }
 
-write.csv(station_info, "station_loc.csv", row.names = FALSE)
+# Merge stations' info + trains data
+arrival <- left_join(trains, station_info, by = c("arrival_station" = "station")) %>%
+  rename("arrival_region" = "region",
+         "arrival_pop" = "pop",
+         "arrival_lat" = "lat",
+         "arrival_lon" = "lon") %>%
+  select(-address)
 
+trains_new <- left_join(arrival, station_info, by = c("departure_station" = "station")) %>%
+  rename("dep_region" = "region",
+         "dep_pop" = "pop",
+         "dep_lat" = "lat",
+         "dep_lon" = "lon") %>%
+  select(-address)
+
+# Add seasonality indicator
+trains_new <- trains_new %>%
+  mutate(season = case_when(month %in% c(12, 1, 2) ~ "Win",
+                            month %in% c(3, 4, 5) ~ "Spr",
+                            month %in% c(6, 7, 8) ~ "Sum",
+                            TRUE ~ "Fal"))
+
+# Save cleaned data file
+write.csv(trains_new, "trains.csv", row.names = FALSE)
