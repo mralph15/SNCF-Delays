@@ -1,0 +1,60 @@
+"station","region","pop","address","lon","lat"
+"PARIS EST","IDF",2175601,"Rue du 8 Mai 1945, 75010 Paris, France",2.3583055,48.8761058
+"REIMS","GE",182211,"1 Rue du Colonel Driant, 51100 Reims, France",4.0265964,49.25857
+"PARIS LYON","IDF",2175601,"Pl. Louis-Armand, 75012 Paris, France",2.372828,48.8448922
+"CHAMBERY CHALLES LES EAUX","ARA",58833,"Pl. de la Gare, 73010 Chambéry, France",5.948173,45.785918
+"LYON PART DIEU","ARA",518635,"5 Pl. Charles Béraudier, 69003 Lyon, France",4.8864171,45.7468531
+"MONTPELLIER","O",290053,"Pl. Auguste Gibert, 34000 Montpellier, France",3.8802141,43.6049878
+"MULHOUSE VILLE","GE",108942,"10 Av. du Général Leclerc, 68100 Mulhouse, France",7.3421957,47.7419597
+"PARIS MONTPARNASSE","IDF",2175601,"17 Bd de Vaugirard, 75015 Paris, France",2.3192153,48.8414107
+"BORDEAUX ST JEAN","NAQ",257068,"Rue Charles Domercq, 33800 Bordeaux, France",-0.5565668,44.8268205
+"LA ROCHELLE VILLE","NAQ",76114,"Pl. Pierre Semard, 17000 La Rochelle, France",-1.145595,46.153093
+"POITIERS","NAQ",88665,"2 Bd Pont Achard, 86000 Poitiers, France",0.3328207,46.5819343
+"VANNES","B",53438,"Av. Favrel et Lincy, 56000 Vannes, France",-2.7522071,47.6649043
+"LILLE","HDF",233098,"1 Place François Mitterrand, 59777 Euralille, France",3.075685,50.6390876
+"ANGERS SAINT LAUD","PDL",154508,"1 Esplanade de la Gare, 49100 Angers, France",-0.5566605,47.4642994
+"DOUAI","HDF",39634,"Pl. de la Gare, 59500 Douai, France",3.0405954,50.3426255
+"MACON LOCHE","BFC",33810,"142 Rue Pouilly Loché, 71000 Mâcon, France",4.7791337,46.2822342
+"MARSEILLE ST CHARLES","PAC",868277,"Sq. Narvik, 13232 Marseille, France",5.3810436,43.3023212
+"NANCY","GE",104885,"3 Place Thiers, 54000 Nancy, France",6.1741328,48.6903955
+"PARIS NORD","IDF",2175601,"18 Rue de Dunkerque, 75010 Paris, France",2.3553491,48.880874
+"PERPIGNAN","O",119188,"66000 Perpignan, France",2.8876436,42.7201813
+"RENNES","B",217728,"19 Pl. de la Gare, 35005 Rennes, France",-1.6716823,48.1036535
+"SAINT ETIENNE CHATEAUCREUX","ARA",173089,"42000 Saint-Étienne, France",4.3859432,45.450626
+"ST PIERRE DES CORPS","CVL",136463,"67 Rue Fabienne Landy, 37700 Saint-Pierre-des-Corps, France",0.7236073,47.3860507
+"VALENCE ALIXAN TGV","ARA",64726,"26300 Alixan, France",5.0276775,44.9752935
+"LAVAL","PDL",49573,"Place de la Gare, 53000 Laval, France",-0.7618202,48.0757023
+"NANTES","PDL",314138,"27 Bd de Stalingrad, 44041 Nantes, France",-1.5417492,47.2175521
+"QUIMPER","B",63166,"1 Pl. Louis Armand, 29000 Quimper, France",-4.0921377,47.9944947
+"TOULOUSE MATABIAU","O",486828,"Bd Pierre Semard, 31500 Toulouse, France",1.4526722,43.6119287
+"ZURICH","INTL",415215,"Bahnhofpl., 8001 Zürich, Switzerland",8.5397705,47.3772565
+"METZ","GE",116581,"1 Pl. du Général de Gaulle, 57000 Metz, France",6.1773477,49.1098328
+"AVIGNON TGV","PAC",91729,"84000 Avignon, France",4.8209596,43.9470042
+"LE MANS","PDL",143252,"Pl. du 8 Mai 1945, 72000 Le Mans, France",0.192125,47.9957962
+"ITALIE","INTL",1399860,"Piazza Duca d'Aosta, 1, 20124 Milano MI, Italy",9.2031026,45.484278
+"BESANCON FRANCHE COMTE TGV","BFC",116775,"Lieu-dit Grand-Bois Le Pasquier, 25870 Auxon, France",5.953623,47.30717
+"NIMES","O",149633,"1 Bd Sergent Triaire, 30000 Nîmes, France",4.365899,43.832237
+"ANGOULEME","NAQ",41711,"16006 Angoulême, France",0.1673133,45.6525738
+"ST MALO","B",46478,"Av. Anita Conti, 35400 Saint-Malo, France",-2.0050475,48.6470252
+"TOURS","CVL",136463,"Pl. du Général Leclerc, 37000 Tours, France",0.6928469,47.3899258
+"ARRAS","HDF",41555,"Pl. du Maréchal Foch, 62000 Arras, France",2.7810424,50.2871858
+"STUTTGART","INTL",630305,"Arnulf-Klett-Platz 2, 70173 Stuttgart, Germany",9.1833216,48.7847244
+"GENEVE","INTL",201818,"1201 Geneva, Switzerland",6.1450463,46.2095516
+"DIJON VILLE","BFC",156854,"Cr de la gare, 21000 Dijon, France",5.02844,47.3236004
+"TOULON","PAC",176198,"Pl. de l'Europe, 83000 Toulon, France",5.9288407,43.1284135
+"DUNKERQUE","HDF",86865,"Pl. de la Gare, 59140 Dunkerque, France",2.3701291,51.0307762
+"BELLEGARDE (AIN)","ARA",11675,"01200 Valserhône, France",5.8262043,46.1113817
+"BREST","B",139602,"08 Pl. du 19eme Régiment d'Infanterie, 29200 Brest, France",-4.4805162,48.3876117
+"ANNECY","ARA",128199,"Pl. de la Gare, 74000 Annecy, France",6.1208327,45.9016627
+"GRENOBLE","ARA",157650,"1 Pl. de la Gare, 38000 Grenoble, France",5.7148622,45.1914171
+"LE CREUSOT MONTCEAU MONTCHANIN","BFC",21491,"71210 Écuisses, France",4.53829,46.755702
+"FRANCFORT","INTL",764104,"Am Hauptbahnhof, 60329 Frankfurt am Main, Germany",8.6648768,50.1073051
+"STRASBOURG","GE",284677,"Pl. de la Gare, 67000 Strasbourg, France",7.7352631,48.5850344
+"LAUSANNE","INTL",139111,"Pl. de la Gare 5A, 1003 Lausanne, Switzerland",6.6292631,46.5169562
+"AIX EN PROVENCE TGV","PAC",143097,"13290 Aix-en-Provence, France",5.3416255,43.5034104
+"NICE VILLE","PAC",341032,"06000 Nice, France",7.2655896,43.6960355
+"TOURCOING","HDF",97442,"11 Pl. Pierre Semard, 59200 Tourcoing, France",3.1682333,50.717553
+"MARNE LA VALLEE","IDF",227943,"Pl. des Passagers du Vent, 77700 Chessy, France",2.783725,48.8719306
+"PARIS VAUGIRARD","IDF",2175601,"75015 Paris, France",2.2927665,48.8421616
+"BARCELONA","INTL",1620343,"Plaça dels Països Catalans, 1, 7, 08014 Barcelona, Spain",2.1431851,41.3793733
+"MADRID","INTL",3223334,"28036 Madrid, Spain",-3.685144,40.4617817
